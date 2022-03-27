@@ -2,16 +2,16 @@ package com.gongbing.entity;
 
 import lombok.Data;
 
+// 实体类
 @Data
 public class User {
-    private Integer id;
+    private int id;
     private String name;
     private String pwd;
 
-    public User() {
-    }
+    public User(){};
 
-    public User(Integer id, String name, String pwd) {
+    public User(int id, String name, String pwd) {
         this.id = id;
         this.name = name;
         this.pwd = pwd;
