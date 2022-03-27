@@ -6,6 +6,7 @@
     <modules>
         <module>mybatis-study-01</module>
         <module>mybatis-no-spring</module>
+        <module>mybatis-properties</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
